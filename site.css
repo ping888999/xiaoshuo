@@ -1,0 +1,39 @@
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.reading-content {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+}
+
+.reading-content .text-indent {
+    text-indent: 2em;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.pagination .page-link {
+    color: #007bff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.breadcrumb a {
+    color: #007bff;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
